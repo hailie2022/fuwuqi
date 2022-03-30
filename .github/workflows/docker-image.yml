@@ -25,7 +25,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: hailie2022/koyeb#dockerID(name: ci
+          tags: hailie2022/name#dockerID(name: ci
 
 on:
   workflow_dispatch:
